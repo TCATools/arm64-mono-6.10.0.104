@@ -1,0 +1,9 @@
+prefix=/mono-bin
+exec_prefix=${prefix}
+libdir=/mono-bin/lib
+sourcesdir=${libdir}/monodoc/sources
+
+Name: Monodoc
+Description: Monodoc - Mono Documentation Tools
+Version: 6.10.0.104
+Libs: /r:${prefix}/lib/mono/monodoc/monodoc.dll 

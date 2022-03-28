@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /mono-bin/bin/mono $MONO_OPTIONS /mono-bin/lib/mono/4.5/mdoc.exe "$@"

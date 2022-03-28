@@ -1,0 +1,2 @@
+#!/bin/sh
+MONO_GC_PARAMS="nursery-size=64m,$MONO_GC_PARAMS" exec /mono-bin/bin/mono $MONO_OPTIONS /mono-bin/lib/mono/xbuild/14.0/bin/xbuild.exe "$@"
